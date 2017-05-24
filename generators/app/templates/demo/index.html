@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>jQuery Boilerplate</title>
-		<script src="../bower_components/jquery/dist/jquery.min.js"></script>
-		<script src="../src/<%= projectName %>.js"></script>
-	</head>
-	<body>
-		<div class="element"></div>
-		<div class="element"></div>
-		<div class="element"></div>
-		<div class="element"></div>
-		<script>
-			$( function() {
-				$( ".element" ).<%= pluginName %>( {
-					propertyName: "a custom value"
-				} );
-			} );
-		</script>
-	</body>
+
+<head>
+    <title>
+        <%= projectName %>
+    </title>
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../src/<%= projectName %>.js"></script>
+    <link href="../src/<%= projectName %>.css"></link>
+</head>
+
+<body>
+    <div class="element"></div>
+    <div class="element"></div>
+    <div class="element"></div>
+    <div class="element"></div>
+    <script>
+        $(function() {
+            $(".element").
+            <%= pluginName %> ({
+                propertyName: "a custom value"
+            });
+        });
+    </script>
+</body>
+
 </html>
