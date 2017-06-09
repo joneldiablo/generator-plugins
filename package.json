@@ -1,12 +1,12 @@
 {
-    "name": "generator-plugins",
+    "name": "generator-jq-plugins",
     "version": "0.0.0",
     "description": "generator for custom  jquery plugins",
     "homepage": "",
     "author": {
-        "name": "JD-R2",
+        "name": "jonathan diego rodriguez",
         "email": "jon_eldiablo@hotmail.com",
-        "url": "elephant-engine.com"
+        "url": "https://github.com/joneldiablo"
     },
     "files": [
         "generators"
