@@ -7,7 +7,7 @@ First, install [Yeoman](http://yeoman.io) and generator-plugins using [npm](http
 
 ```bash
 npm install -g yo
-npm install -g generator-plugins
+npm install -g generator-jq-plugins
 ```
 
 Then generate your new project:
