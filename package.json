@@ -1,8 +1,8 @@
 {
     "name": "generator-jq-plugins",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "description": "generator for custom  jquery plugins",
-    "homepage": "",
+    "homepage": "https://github.com/joneldiablo/generator-plugins",
     "author": {
         "name": "jonathan diego rodriguez",
         "email": "jon_eldiablo@hotmail.com",
